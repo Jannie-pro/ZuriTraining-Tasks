@@ -1,3 +1,5 @@
+@import url('https: //fonts.google.com/specimen/Lexend+Deca');
+@import url('https: //fonts.google.com/specimen/Big+Shoulders+Display');
 *{
     margin: 0;
     padding: 0;
@@ -33,19 +35,20 @@ main{
 }
 h2{
     color: hsl(0, 0%, 95%);
-    font-family: Big Shoulders Display;
+    font-family: 'Big Shoulders Display', sans-serif;
     font-weight: 700;
     padding-bottom: 2rem;
 }
 p {
     color: hsla(0, 0%, 100%, 0.75);
-    font-family: Lexend Deca;
+    font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
     padding-bottom: 2rem;
 }
 .sedans button{
     background-color: hsl(0, 0%, 95%);
     color: hsl(31, 77%, 52%);
+    border: 1px;
     border-radius: 20px;
     text-align: center;
     padding: 10px;
@@ -54,19 +57,22 @@ p {
 .suv button {
     background-color: hsl(0, 0%, 95%);
     color: hsl(184, 100%, 22%);
+    border: 1px;
     border-radius: 20px;
     text-align: center;
     padding: 10px;
-    font-family: Lexend Deca;
+    font-family: 'Lexend Deca', sans-serif;
 }
 .luxury button {
     background-color: hsl(0, 0%, 95%);
     color: hsl(179, 100%, 13%);
+    border: 1px;
     border-radius: 20px;
     text-align: center;
     padding: 10px;
     font-family: Lexend Deca;
 }
 .icons{
-    
+    padding-bottom: 2rem;
+    width: 40px;
 }
